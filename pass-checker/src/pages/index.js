@@ -1,6 +1,6 @@
 // pages/index.js
 import React, { useState } from 'react';
-import PasswordStrengthIndicator from '@/components/PasswordStrengthIndocator/PasswordStrengthIndocator';
+import PasswordStrengthIndicator from '@/components/PasswordStrengthIndicator/PasswordStrengthIndicator';
 
 const IndexPage = () => {
   const [password, setPassword] = useState('');
